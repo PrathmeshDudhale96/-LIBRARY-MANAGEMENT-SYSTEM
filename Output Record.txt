@@ -1,0 +1,168 @@
+PS C:\Users\PRATHMESH\Desktop\LIBRARY MANAGEMENT SYSTEM> cd "c:\Users\PRATHMESH\Desktop\LIBRARY MANAGEMENT SYSTEM\" ; if ($?) { gcc Project.c -o Project } ; if ($?) { .\Project }
+   LIBRARY MANAGEMENT SYSTEM
+
+----- MENU -----
+1. Add New Book
+2. Display All Books
+3. Search Book
+4. Issue Book
+5. Return Book
+6. Exit
+Enter your choice: 1
+
+--- Add New Book ---
+Enter book title: Atomic Habits
+Enter author name: James Clear
+
+Book added successfully! Book ID: 1
+
+----- MENU -----
+1. Add New Book
+2. Display All Books
+3. Search Book
+4. Issue Book
+5. Return Book
+6. Exit
+Enter your choice: 2
+  LIBRARY BOOK RECORDS
+
+Book ID: 1
+Title: Atomic Habits
+Author: James Clear
+Status: Available
+----------------------------------------
+
+----- MENU -----
+1. Add New Book
+2. Display All Books
+3. Search Book
+4. Issue Book
+5. Return Book
+6. Exit
+Enter your choice: 1
+
+--- Add New Book ---
+Enter book title: Wings of Fire
+Enter author name: Dr. A. P. J. Abdul Kalam
+
+Book added successfully! Book ID: 2
+
+----- MENU -----
+1. Add New Book
+2. Display All Books
+3. Search Book
+4. Issue Book
+5. Return Book
+6. Exit
+Enter your choice: 2
+  LIBRARY BOOK RECORDS
+
+Book ID: 1
+Title: Atomic Habits
+Author: James Clear
+Status: Available
+----------------------------------------
+
+Book ID: 2
+Title: Wings of Fire
+Author: Dr. A. P. J. Abdul Kalam
+Status: Available
+----------------------------------------
+
+----- MENU -----
+1. Add New Book
+2. Display All Books
+3. Search Book
+4. Issue Book
+5. Return Book
+6. Exit
+Enter your choice: 3
+
+ Search Book
+Enter book title to search: Wings of Fire
+
+Book Found!
+Book ID: 2
+Title: Wings of Fire
+Author: Dr. A. P. J. Abdul Kalam
+Status: Available
+
+----- MENU -----
+1. Add New Book
+2. Display All Books
+3. Search Book
+4. Issue Book
+5. Return Book
+6. Exit
+Enter your choice: 4
+
+--- Issue Book ---
+Enter Book ID to issue: 2
+Enter borrower name: Prathmesh Dudhale
+
+Book issued successfully to Prathmesh Dudhale!
+
+----- MENU -----
+1. Add New Book
+2. Display All Books
+3. Search Book
+4. Issue Book
+5. Return Book
+6. Exit
+Enter your choice: 3
+
+ Search Book
+Enter book title to search: Wings of Fire
+
+Book Found!
+Book ID: 2
+Title: Wings of Fire
+Author: Dr. A. P. J. Abdul Kalam
+Status: Issued to Prathmesh Dudhale
+
+----- MENU -----
+1. Add New Book
+2. Display All Books
+3. Search Book
+4. Issue Book
+5. Return Book
+6. Exit
+Enter your choice: 5
+
+--- Return Book ---
+Enter Book ID to return: 2
+
+Book returned by: Prathmesh Dudhale
+Book returned successfully!
+
+----- MENU -----
+1. Add New Book
+2. Display All Books
+3. Search Book
+4. Issue Book
+5. Return Book
+6. Exit
+Enter your choice: 3
+
+ Search Book
+Enter book title to search: Wings of Fire
+
+Book Found!
+Book ID: 2
+Title: Wings of Fire
+Author: Dr. A. P. J. Abdul Kalam
+Status: Available
+
+----- MENU -----
+1. Add New Book
+2. Display All Books
+3. Search Book
+4. Issue Book
+5. Return Book
+6. Exit
+Enter your choice: 6
+
+Data saved successfully!
+
+Thank you for using Library System!
+PS C:\Users\PRATHMESH\Desktop\LIBRARY MANAGEMENT SYSTEM> 
